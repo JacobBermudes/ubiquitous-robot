@@ -31,3 +31,13 @@ jobs:
           files: awgusers
           name: Amnezia HMS tools
           tag_name: HMS_user_tool
+    
+      - name: Copy binary to HMS server
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            cd /opt/amnezia/tools
+            wget https://github.com/JacobBermudes/ubiquitous-robot/releases/download/HMS_user_tool/awgusers
