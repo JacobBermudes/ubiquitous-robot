@@ -1,0 +1,31 @@
+{
+  "containers": [
+    {
+      "awg": {
+        "H1": "1857189466",
+        "H2": "1395761759",
+        "H3": "855944135",
+        "H4": "1518967018",
+        "Jc": "4",
+        "Jmax": "50",
+        "Jmin": "10",
+        "S1": "118",
+        "S2": "29",
+        "clientId": "iNUps26eVs+ukn9dTOTJ+...",
+        "client_ip": "10.8.1.39",
+        "client_priv_key": "zX/wwP0gJAeYmhjfsxQM...",
+        "client_pub_key": "iNUps26eVs+ukn9dTOTJ+...",
+        "config": "[Interface]\nAddress = 10.8.1.39/32\nDNS = ...\nPrivateKey = zX/ww...\n\n[Peer]\nPublicKey = slQyriJXY5GCN...\nPresharedKey = z5T21JKDj2CQ...\nAllowedIPs = 0.0.0.0/0, ::/0\nEndpoint = 66.151.41.40:40902\nPersistentKeepalive = 25\n",
+        "hostName": "66.151.41.40",
+        "mtu": "1280",
+        "port": 40902,
+        "psk_key": "z5T21JKDj2CQ...",
+        "server_pub_key": "slQyriJXY5GCN..."
+      },
+      "container": "amnezia-awg"
+    }
+  ],
+  "defaultContainer": "amnezia-awg",
+  "description": "mickeyVpn",
+  "dns1": "172.29.172.254"
+}
