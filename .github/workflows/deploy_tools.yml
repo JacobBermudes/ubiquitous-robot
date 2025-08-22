@@ -27,3 +27,4 @@ jobs:
         with:
           files: awgusers
           name: Amnezia HMS tools
+          tag_name: HMS user adder
