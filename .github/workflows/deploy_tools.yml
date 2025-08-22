@@ -39,5 +39,4 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            cd /opt/amnezia/tools
             docker exec amnezia-awg wget https://github.com/JacobBermudes/ubiquitous-robot/releases/download/HMS_user_tool/awgusers
